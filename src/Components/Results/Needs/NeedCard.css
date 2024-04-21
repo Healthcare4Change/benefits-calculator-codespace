@@ -1,0 +1,109 @@
+.result-resource-more-info {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+.result-resource-more-info svg,
+.result-resource-more-info svg path.cls-1 {
+  fill: var(--icon-color);
+  margin-right: 0.25rem;
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+.result-resource-more-info span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.result-resource-more-info span strong {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.25rem;
+  display: block;
+  text-transform: capitalize;
+}
+
+.more-info-btn,
+.more-info-btn-open {
+  color: white;
+  text-wrap: nowrap;
+  font-size: 0.8rem;
+  border-radius: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--primary-color);
+  height: 80%;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
+  border: 1px solid var(--primary-color);
+}
+
+.more-info-btn:hover,
+.visit-website-btn:hover,
+.more-info-btn-open {
+  color: var(--primary-color);
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
+}
+
+.need-card-container {
+  border: 2px solid var(--secondary-color);
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.header-and-button-divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more-info-container {
+  display: flex;
+}
+
+.need-desc-paragraph {
+  margin-bottom: 1rem;
+}
+
+.phone-number {
+  color: var(--secondary-color);
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.phone-number:hover {
+  text-decoration: underline;
+}
+
+.visit-website-btn-container {
+  display: flex;
+  justify-content: center;
+  min-height: 35px;
+}
+
+.visit-website-btn {
+  color: white;
+  text-wrap: nowrap;
+  font-size: 0.8rem;
+  border-radius: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--primary-color);
+  height: 80%;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
+  border: 1px solid var(--primary-color);
+}
+
+@media (max-width: 500px) {
+  .result-resource-more-info span strong {
+    font-size: 1rem;
+  }
+}

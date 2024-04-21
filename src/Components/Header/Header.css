@@ -1,0 +1,57 @@
+.home-link {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 90%;
+  max-height: 60%;
+  display: block;
+}
+
+.MuiPaper-root.header-full-width-container {
+  width: 100%;
+  height: 5rem;
+  background-color: var(--primary-color);
+}
+
+#nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  max-width: var(--main-max-width);
+  margin: auto;
+  padding: 0 1rem;
+  background-color: var(--primary-color);
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 1rem;
+  padding: 0;
+  cursor: pointer;
+}
+
+#select-language {
+  padding: 0;
+  margin-left: 0.25rem;
+  margin-right: 1.5rem;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#select-language:focus-visible {
+  outline: -webkit-focus-ring-color auto 1px;
+}

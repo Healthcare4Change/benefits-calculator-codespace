@@ -1,0 +1,127 @@
+.confirmation-section-underline {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #505c66;
+}
+
+.confirmation-container {
+  margin: 2rem 10% 2rem 10%;
+}
+
+.confirmation-container > div {
+  background-color: var(--secondary-background-color);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.confirmation-icon {
+  width: 4.75rem;
+  display: block;
+  margin: auto;
+}
+
+svg.confirmation-icon path,
+svg.confirmation-icon circle {
+  stroke: var(--secondary-icon-color);
+  fill: var(--secondary-icon-color);
+}
+
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-2.css-1o7apob-MuiGrid-root.no-padding {
+  padding: 0;
+}
+
+.edit-button {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 1.5rem;
+  transform: translate(50%, -50%);
+}
+
+.edit-button:hover {
+  cursor: pointer;
+}
+
+[dir='rtl'] .edit-button {
+  left: 2rem;
+  right: unset;
+}
+
+svg.edit-button path,
+svg.edit-button rect,
+svg.edit-button polygon {
+  stroke: var(--midBlue-color);
+  fill: var(--midBlue-color);
+}
+
+.prev-continue-results-buttons.confirmation {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.section-p {
+  line-height: 2rem;
+}
+
+.flip-horizontally {
+  transform: scaleX(-1);
+}
+
+.bottom-margin {
+  margin-bottom: 0.5rem;
+}
+
+.MuiSvgIcon-root.home-icon {
+  color: #2a2b2a;
+  height: 4rem;
+  width: 4rem;
+}
+
+@media (max-width: 630px) {
+  .confirmation-container {
+    margin: 0;
+  }
+
+  .confirmation-icon {
+    width: 100%;
+  }
+
+  .edit-button {
+    width: 1rem;
+  }
+
+  .MuiSvgIcon-root.home-icon {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .section-title {
+    font-size: 1rem;
+  }
+
+  .section-p {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+  }
+
+  h1.sub-header {
+    font-size: 1.5rem;
+  }
+
+  .prev-continue-results-buttons.confirmation {
+    margin: 1rem 0 0 0;
+  }
+
+  .bottom-margin {
+    margin-bottom: 0.5rem;
+  }
+}
